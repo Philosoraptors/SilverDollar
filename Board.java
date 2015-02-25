@@ -8,12 +8,7 @@ public class Board {
   }
 
   public void setupBoard(int coins) {
-    board = new boolean[10];
-    Arrays.fill(board, false);
-    board[1] = true;
-    board[4] = true;
-    board[7] = true;
-    board[8] = true;
+
   }
 
   public boolean moveCoin(int location) {
@@ -41,7 +36,6 @@ public class Board {
     }
 
     // add a second line to label spaces
-
     output += "\n\n";    // two newline characters
 
     for (int i = 0; i < board.length; i++) {
