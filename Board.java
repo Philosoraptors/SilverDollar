@@ -20,7 +20,7 @@ public class Board {
   }
 
   public String drawBoard() {
-String output = "";
+    String output = "";
 
     // number the spaces
     for (int i = 0; i < board.length; i++) {
