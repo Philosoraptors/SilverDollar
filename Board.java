@@ -15,9 +15,14 @@ public class Board {
     return true;
   }
 
-  public boolean gameOver() {
-    return false;
-  }
+   public boolean gameOver() { // needs to be fixed
+    int q = 0
+for (int i = 0; q = 1; i++) {
+if (bord[i] == false) {q=1 and for (int g = i; g < board.length; g++) { if (board[i] == true) {q=0} else {// don't know what to put here
+} } else { // don't know what to put here
+} }
+ if (q == 1) {System.out.println("game over player" "insert player here" "wins")} else {// don't know what to put here
+  }}}
 
   public String drawBoard() {
     String output = "";
